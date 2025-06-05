@@ -142,8 +142,8 @@ def automate_workflow():
     save_output(pivot, output_file)
     create_visualizations(df)
 
-    sender_email = "adityachineaasplinternship@gmail.com"
-    app_password = "fgeo zebn vkul njwx"
+    sender_email = "sender@gmail.com"
+    app_password = "gmail app password "
     subject = "Automated Pivot & Analysis Report"
     body = "Attached are today's pivot report and visual analytics."
 
