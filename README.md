@@ -107,22 +107,5 @@ Add .gitignore to prevent data files from being tracked.
 Maintained by Aditya Chine
 GitHub: @adityachine
 
-vbnet
-Copy
-Edit
-
-Would you like me to generate a `.gitignore` and `requirements.txt` too for your repo?
-
-
-
-
-
-
-
-
-
-
-Tools
-
 
 
