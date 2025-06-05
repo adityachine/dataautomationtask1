@@ -2,34 +2,25 @@
 
 This project automates the process of analyzing **online shopper behavior** using a dataset, generating visualizations and reports, and sending those via email on a schedule using Python.
 
----
-
 ## 📁 Project Structure
-
-📦dataautomationtask1/
-┣ 📜 app1.py
-┣ 📜 app2email.py
-┣ 📜 app3email_automation.py
-┣ 📜 appgmail.py
-┣ 📜 appoutlook.py
-┣ 📜 applocalhost.py
-┣ 📜 automation_log.txt
-┣ 📊 client_emails.xlsx
-┣ 📊 recipients.csv
-┣ 📊 online_shoppers_intention.csv
-┣ 📈 correlation_heatmap.png
-┣ 📈 exit_vs_bounce.png
-┣ 📈 pagevalues_bar_chart.png
-┣ 📈 visitor_pie_chart.png
-┣ 📊 outputexcelfile.xlsx
-┣ 📜 pivot_output.csv
-┗ 📄 README.md
-
-yaml
-Copy
-Edit
-
----
+dataautomationtask1:
+  - app1.py
+  - app2email.py
+  - app3email_automation.py
+  - appgmail.py
+  - appoutlook.py
+  - applocalhost.py
+  - automation_log.txt
+  - client_emails.xlsx          # 📊 Excel file with client emails
+  - recipients.csv              # 📊 Static CSV for recipients
+  - online_shoppers_intention.csv  # 📊 Source data file
+  - correlation_heatmap.png     # 📈 Heatmap visualization
+  - exit_vs_bounce.png          # 📈 Bounce vs Exit chart
+  - pagevalues_bar_chart.png    # 📈 Page values visualization
+  - visitor_pie_chart.png       # 📈 Visitor distribution pie chart
+  - outputexcelfile.xlsx        # 📊 Final Excel report
+  - pivot_output.csv            # 📜 Processed pivot CSV
+  - README.md                   # 📄 Documentation
 
 ## ⚙️ Key Features
 
