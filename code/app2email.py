@@ -104,9 +104,9 @@ def automate_workflow():
     save_output(pivot, output_file)
 
     # EMAIL CONFIGURATION
-    sender_email = "adityachineaasplinternship@gmail.com"
-    app_password = "fgeo zebn vkul njwx"  # Use Gmail App Password
-    recipient_email = "adityahemantchine41@gmail.com"
+    sender_email = "sender email "
+    app_password = "gmail app password"  # Use Gmail App Password
+    recipient_email = "@gmail.com"
     subject = "Daily Pivot Report - Online Shoppers Intention"
     body = "Please find attached the pivot table report generated today."
 
