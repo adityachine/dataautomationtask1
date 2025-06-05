@@ -144,8 +144,8 @@ def automate_workflow():
         pivot_df = create_pivot_table(clean_df)
         save_to_excel(clean_df, pivot_df, output_excel)
 
-        sender = "adityachineaasplinternship@gmail.com"
-        password = "fgeo zebn vkul njwx"  # Use Gmail App Password here
+        sender = "sender email id "
+        password = "Use Gmail App Password here "  # Use Gmail App Password here
         recipients = get_email_list(email_excel)
 
         subject = "📊 Daily Pivot Report - Online Shoppers Intention"
