@@ -14,9 +14,9 @@ from datetime import datetime
 
 INPUT_CSV = 'online_shoppers_intention.csv'
 OUTPUT_CSV = 'pivot_output.csv'
-SENDER_EMAIL = 'adityachineaasplintership@outlook.com'
+SENDER_EMAIL = 'sender@outlook.com'
 APP_PASSWORD = 'ylgaqytqhzsmslxb'
-RECIPIENT_EMAIL = 'adityahemantchine41@gmail.com'
+RECIPIENT_EMAIL = 'recipent@gmail.com'
 EMAIL_SUBJECT = "Daily Pivot Report - Online Shoppers Intention"
 EMAIL_BODY = "Please find attached the pivot table report generated today."
 
