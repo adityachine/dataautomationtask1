@@ -10,14 +10,20 @@ import os
 
 # === CONFIGURATION ===
 CSV_FILE = 'online_shoppers_intention.csv'
-SENDER_EMAIL = 'adityachineaasplinternship@gmail.com'
-APP_PASSWORD = 'wxpt weul cgre cdoc'
+SENDER_EMAIL = 'sender@gmail.com'
+APP_PASSWORD = 'gmail app password '
 SUBJECT = "Automated Pivot & Analysis Report"
 BODY = "Attached are today's pivot report and visual analytics."
 RECIPIENTS = [
-    "adityabhartichine4141@gmail.com",
-    "adityahemantchine41@gmail.com",
-    "aditya.chine@alignedautomation.com"
+    "receiver1@gmail.com",
+    "receiver2@gmail.com",
+    "receiver3@gmail.com",
+    "receiver4@gmail.com",
+    "receiver5@gmail.com",
+    "receiver6@gmail.com",
+    "receiver7@gmail.com",
+    "receiver8@gmail.com",
+    
 ]
 
 def run_analysis_and_send_email():
